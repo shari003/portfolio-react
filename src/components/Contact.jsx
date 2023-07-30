@@ -2,7 +2,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 const Contact = () => {
     return (
-        <div name="contact" className="pt-[3.6rem] bg-[#0a192f] w-full h-screen flex justify-center items-center p-4">
+        <div name="contact" className="pt-[3.6rem] bg-[#0a192f] w-full h-[120vh] flex justify-center items-center p-4">
             <form method="POST" action="https://getform.io/f/d1ba0618-fe5e-42a7-97eb-2af4fa17bfeb" className="flex flex-col max-w-[600px] w-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-yellow-500 text-gray-300">Contact</p>

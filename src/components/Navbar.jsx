@@ -115,7 +115,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#067acc]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://twitter.com/nolimitshri'
+              href='https://twitter.com/nolimitshri' target='_blank'
             >
               Twitter <FaTwitter size={30} />
             </a>
@@ -123,7 +123,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-500'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://drive.google.com/file/d/10F-nY1f26qvCwYkYUTffkqrO3KIyaK6w/view?usp=sharing' target='_blank'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

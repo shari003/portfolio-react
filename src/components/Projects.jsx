@@ -27,7 +27,7 @@ const Projects = () => {
                                 Hate Speech Detection on Videos 
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
+                                <a href="https://www.kaggle.com/code/zorrus/nlp-project-hate-speech" target="_blank" rel="noreferrer">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                                 </a>                                  
                             </div>
@@ -44,7 +44,7 @@ const Projects = () => {
                                 Iris Tracker
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
+                                <a href="https://github.com/shari003/iris_tracker" target="_blank" rel="noreferrer"> 
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                                 </a>                                  
                             </div>
@@ -60,7 +60,7 @@ const Projects = () => {
                                 One Shot Facial Recognition <br />(Siamese Net)
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
+                                <a href="https://github.com/shari003/one-shot-face-recognition" target="_blank" rel="noreferrer">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                                 </a>                                  
                             </div>
@@ -76,7 +76,7 @@ const Projects = () => {
                                 Flipkart Auto Reviews Scrapper 
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="/">
+                                <a href="https://github.com/shari003/flipkart-reviews-scrapper" target="_blank" rel="noreferrer">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                                 </a>                                  
                             </div>
