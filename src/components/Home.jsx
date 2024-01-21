@@ -12,7 +12,7 @@ const Home = () => {
             Shri Hari
           </h1>
           <h2 className="py-1 text-3xl sm:text-5xl font-bold text-[#8892b0]">
-            I'm a Full Stack Developer and Deep Learning Engineer
+            I'm a Full Stack Developer
           </h2>
           {/* <p className="text-[#8892b0] py-4 max-w-[700px]">
           Passionate Engineering student with expertise in Deep Learning and Full-stack Web Dev. Excels at creating impactful software solutions for diverse clients, from individuals to small businesses.

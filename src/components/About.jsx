@@ -15,7 +15,7 @@ const About = () => {
                             <p>Hi, I'm Shri, nice to meet you! Please take a look around.</p>
                         </div>
                         <div>
-                            Hey there! I'm a super pumped 4th-year Engineering student, specializing in Deep Learning and Full-stack Web Development. I've crushed it with multiple cool projects in these areas! Always on the lookout for new tech to geek out on. Building top-notch software is my jam, and I'm all about bringing fresh and innovative solutions to the table. I love crafting software that rocks their world!
+                            Hey there! I'm a super pumped 4th-year Engineering student, specializing in Full-stack Web Development. I've crushed it with multiple cool projects in these areas! Always on the lookout for new tech to geek out on. Building top-notch software is my jam, and I'm all about bringing fresh and innovative solutions to the table. I love crafting software that rocks their world!
                         </div>
                     </div>
                 </div>

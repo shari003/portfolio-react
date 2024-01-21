@@ -5,8 +5,8 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaTwitter
 } from 'react-icons/fa';
+import X from "../assets/x.png"
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { Link } from 'react-scroll';
 
@@ -112,18 +112,18 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#067acc]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://twitter.com/nolimitshri' target='_blank'
+              className='flex justify-between items-center w-full text-white'
+              href='https://x.com/nolimitshri' target='_blank'
             >
-              Twitter <FaTwitter size={30} />
+              <span className="block">X</span> <img className="w-[3.5rem] ml-20 block" src={X} alt="GITHUB logo" />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-500'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='https://drive.google.com/file/d/10F-nY1f26qvCwYkYUTffkqrO3KIyaK6w/view?usp=sharing' target='_blank'
+              href='https://drive.google.com/file/d/1o76S9QatXTvYAwfPNvKfEZPnoOvDq3jk/view?usp=sharing' target='_blank'
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

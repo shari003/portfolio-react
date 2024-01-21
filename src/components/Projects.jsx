@@ -1,8 +1,8 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import iris from "../assets/projects/iris_tracker_1.png";
-import siamese_net from "../assets/projects/siamese_net.png";
-import flipkart_scrapper from "../assets/projects/flipkart_scrapper.png";
-import hate_speech from "../assets/projects/hate_speech.png";
+import jetflix from "../assets/projects/jetflix.png";
+import quickcrave from "../assets/projects/quickcrave.png";
+import pulspal from "../assets/projects/pulspal.png";
+import admin_dash from "../assets/projects/admin_dash.png";
 
 const Projects = () => {
     return (
@@ -19,66 +19,74 @@ const Projects = () => {
                     {/* Container Grid Items Start from Here :- */}
 
                     {/* First Project */}
-                    <div style={{backgroundImage: `url(${hate_speech})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div style={{backgroundImage: `url(${jetflix})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
                         {/* Hover Effect */}
                         <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl text-center block m-auto  w-[100%] font-bold text-white tracking-wider">
-                                Hate Speech Detection on Videos 
+                            <span className="text-2xl p-1 text-center block m-auto  w-[100%] font-bold text-white tracking-wider">
+                                Jetflix (Powered by GPT) 
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="https://www.kaggle.com/code/zorrus/nlp-project-hate-speech" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/shari003/NetflixGPT" target="_blank" rel="noreferrer">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                                </a>                                  
+                                </a>   
+                                <a href="https://netflixgpt-5a4f4.web.app/" target="_blank" rel="noreferrer">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Site</button>
+                                </a>                                 
                             </div>
                         </div>
                     </div>
 
-
                     {/* Second */}
-                    <div style={{backgroundImage: `url(${iris})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div style={{backgroundImage: `url(${quickcrave})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
                         {/* Hover Effect */}
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl text-center block m-auto  w-[100%] font-bold text-white tracking-wider">
-                                Iris Tracker
+                                QuickCrave
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="https://github.com/shari003/iris_tracker" target="_blank" rel="noreferrer"> 
+                                <a href="https://github.com/shari003/QuickCrave" target="_blank" rel="noreferrer">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                                </a>                                  
+                                </a>      
+                                <a href="https://quickcrave.netlify.app/" target="_blank" rel="noreferrer">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Site</button>
+                                </a>                             
                             </div>
                         </div>
                     </div>
 
                     {/* Third */}
-                    <div style={{backgroundImage: `url(${siamese_net})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    <div style={{backgroundImage: `url(${pulspal})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
                         {/* Hover Effect */}
                         <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl text-center block m-auto  w-[100%] font-bold text-white tracking-wider">
-                                One Shot Facial Recognition <br />(Siamese Net)
+                            <span className="text-2xl text-center block m-auto w-[100%] font-bold text-white tracking-wider">
+                                Pulspal
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="https://github.com/shari003/one-shot-face-recognition" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/shari003/Pulspal" target="_blank" rel="noreferrer">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                                 </a>                                  
                             </div>
                         </div>
                     </div>
 
-                    {/* Fourth Project */}
-                    <div style={{backgroundImage: `url(${flipkart_scrapper})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+                    {/* Fourth */}
+                    <div style={{backgroundImage: `url(${admin_dash})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
 
                         {/* Hover Effect */}
                         <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl text-center block m-auto  w-[100%] font-bold text-white tracking-wider">
-                                Flipkart Auto Reviews Scrapper 
+                            <span className="text-2xl text-center block m-auto w-[100%] font-bold text-white tracking-wider">
+                                Admin Dashboard
                             </span>
                             <div className="pt-8 text-center">
-                                <a href="https://github.com/shari003/flipkart-reviews-scrapper" target="_blank" rel="noreferrer">
+                                <a href="https://github.com/shari003/react-admin-dashboard" target="_blank" rel="noreferrer">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                                </a>                                  
+                                </a>   
+                                <a href="https://admin-frontend-05mb.onrender.com/dashboard" target="_blank" rel="noreferrer">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Site</button>
+                                </a>                                
                             </div>
                         </div>
                     </div>

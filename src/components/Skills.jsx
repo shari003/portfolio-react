@@ -2,11 +2,11 @@
 import CPP from "../assets/c-.png"
 import Python from "../assets/python.png"
 import JS from "../assets/javascript.png"
-import TF from "../assets/tensorflow.png"
+import React from "../assets/react.png"
 import NodeJS from "../assets/node.png"
 import MongoDB from "../assets/mongo.png"
-import GITHUB from "../assets/github.png"
-import CV from "../assets/opencv.png"
+import Tailwind from "../assets/tailwind.png"
+import Ex from "../assets/express.png"
 
 const Skills = () => {
     return (
@@ -32,25 +32,27 @@ const Skills = () => {
                             <p className="my-4">JavaScript</p>
                         </div>
                         <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                            <img className="w-20 mx-auto" src={TF} alt="TF logo" />
-                            <p className="my-4">TesnorFlow</p>
-                        </div>
-                        <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                            <img className="w-20 mx-auto" src={CV} alt="opencv logo" />
-                            <p className="my-4">OpenCV</p>
-                        </div>
-                        <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                            <img className="w-20 mx-auto" src={NodeJS} alt="NodeJS logo" />
-                            <p className="my-4">NodeJS</p>
+                            <img className="w-20 mx-auto" src={Tailwind} alt="GITHUB logo" />
+                            <p className="my-4">Tailwindcss</p>
                         </div>
                         <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
                             <img className="w-20 mx-auto" src={MongoDB} alt="MongoDB logo" />
                             <p className="my-4">MongoDB</p>
                         </div>
                         <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-                            <img className="w-20 mx-auto" src={GITHUB} alt="GITHUB logo" />
-                            <p className="my-4">GITHUB</p>
+                            <img className="w-20 p-3 mx-auto bg-white invert rounded-full" src={Ex} alt="TF logo" />
+                            <p className="my-4">Express.js</p>
                         </div>
+                        <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                            <img className="w-20 mx-auto" src={React} alt="opencv logo" />
+                            <p className="my-4">React</p>
+                        </div>
+                        <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+                            <img className="w-20 mx-auto" src={NodeJS} alt="NodeJS logo" />
+                            <p className="my-4">Node.js</p>
+                        </div>
+                        
+                        
                     </div>
 
                 </div>
